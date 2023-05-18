@@ -1,8 +1,15 @@
+<script setup>
+import { useHeaderStore } from '/src/stores/Header/header.js'
+const store = useHeaderStore()
+</script>
+
 <template>
   <div>
     <header class="flex justify-between items-center">
-      <div class="font-bold font-['Poppins'] text-[#303972] text-center my-3 text-[30px]">
-        Dashboard
+      <div class="flex items-center justify-start">
+        <span class="font-bold font-['Poppins'] text-[#303972] text-center my-3 text-[30px]">{{
+          store.GET_TITLE
+        }}</span>
       </div>
       <div class="flex gap-4">
         <div class="flex gap-3">
@@ -15,7 +22,7 @@
             <span class="text-[#A098AE]"> Admin </span>
           </div>
           <img
-            src="../../assets/admin-profile.png"
+            src="../../assets/img/admin-profile.png"
             class="w-[45px] h-[45px] rounded-full bg-gray-600"
             alt=""
           />
@@ -24,5 +31,4 @@
     </header>
   </div>
 </template>
-<script setup></script>
 <style scoped></style>

@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted } from 'vue'
+import { useHeaderStore } from '/src/stores/Header/header.js'
+const store = useHeaderStore()
+onMounted(() => {
+  store.CHANGE_TITLE('Dashboard')
+})
+</script>
 <template>
   <main>
     <section class="w-full">
