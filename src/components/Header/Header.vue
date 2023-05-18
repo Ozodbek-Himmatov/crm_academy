@@ -1,14 +1,17 @@
 <script setup>
-import { useHeaderStore } from '/src/stores/Header/header.js'
-const store = useHeaderStore()
+import image from '../../assets/img/admin-profile.png'
+
+import { useRouter } from 'vue-router'
+const router = useRouter()
+console.log(router);
 </script>
 
 <template>
   <div>
     <header class="flex justify-between items-center">
       <div class="flex items-center justify-start">
-        <span class="font-bold font-['Poppins'] text-[#303972] text-center my-3 text-[30px]">{{
-          store.GET_TITLE
+        <span class="font-bold font-['Poppins'] text-[#303972] text-center my-3 text-[30px] capitalize ">{{
+          router.currentRoute.value.name
         }}</span>
       </div>
       <div class="flex gap-4">
@@ -21,11 +24,7 @@ const store = useHeaderStore()
             <span class="text-[#303972]"> Azimov A. </span>
             <span class="text-[#A098AE]"> Admin </span>
           </div>
-          <img
-            src="../../assets/img/admin-profile.png"
-            class="w-[45px] h-[45px] rounded-full bg-gray-600"
-            alt=""
-          />
+          <img :src="image" class="w-[45px] h-[45px] rounded-full bg-gray-600" alt="" />
         </div>
       </div>
     </header>

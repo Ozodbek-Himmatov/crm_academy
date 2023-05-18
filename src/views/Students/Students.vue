@@ -1,14 +1,7 @@
 <script setup>
 import moment from 'moment'
 import { students } from '../../constants/students.js'
-import { ref, onMounted } from 'vue'
-import { useHeaderStore } from '/src/stores/Header/header.js'
-const store = useHeaderStore()
-const toggleModal = () => {}
 
-onMounted(() => {
-  store.CHANGE_TITLE('Students')
-})
 </script>
 <template>
   <div>
@@ -142,13 +135,13 @@ onMounted(() => {
     </div>
 
     <!-- TABLE SECTION START -->
-    <div class="max-w-full mt-10">
+    <div class="max-w-full mt-10 font-['Abhaya'] font-bold">
       <div class="flex flex-col">
         <div class="overflow-x-auto shadow-md sm:rounded-lg">
           <div class="inline-block min-w-full align-middle">
             <div class="overflow-hidden">
               <table class="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-700">
-                <thead class="bg-gray-100 dark:bg-gray-700">
+                <thead class="bg-gray-200 dark:bg-gray-700">
                   <tr>
                     <th scope="col" class="p-4">
                       <div class="flex items-center">
@@ -162,31 +155,46 @@ onMounted(() => {
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-[#8A92A6] uppercase dark:text-gray-400 flex items-center gap-5 mt-2"
                     >
-                      F.I.SH
+                      <span>I.O.F</span>
+                      <svg
+                        width="11"
+                        height="12"
+                        viewBox="0 0 11 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.66667 1.33334V10.6667M5.66667 10.6667L10.3333 6M5.66667 10.6667L1 6"
+                          stroke="#667085"
+                          stroke-width="1.33333"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400"
                     >
                       Guruh raqami
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400"
                     >
                       Bosqich
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400"
                     >
                       Qo'shilgan sana
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400"
                     >
                       ID raqami
                     </th>
@@ -218,17 +226,17 @@ onMounted(() => {
                       {{ student.grade }}
                     </td>
                     <td class="py-4 px-6 text-sm font-medium text-gray-900">
-                      {{ moment(student.createdAt).format('LL') }}
+                      {{ moment(student.createdAt).format('MMM Do YY') }}
                     </td>
                     <td class="py-4 px-6 text-sm font-medium text-gray-900">
                       {{ student.id_number }}
                     </td>
                     <td class="py-4 px-6 text-sm font-medium text-center">
                       <i
-                        class="bx bx-trash text-2xl cursor-pointer hover:scale-110 duration-200 mr-5"
+                        class="bx bx-trash text-2xl cursor-pointer hover:scale-110 hover:text-red-600 hover:shadow-inner rounded-full px-1 hover:shadow-red-500 duration-200 mr-5"
                       ></i>
                       <i
-                        class="bx bx-pencil text-2xl cursor-pointer hover:scale-110 duration-200"
+                        class="bx bx-pencil text-2xl cursor-pointer hover:scale-110 rounded-md  hover:text-blue-600 hover:shadow-inner hover:shadow-blue-500 duration-200"
                       ></i>
                     </td>
                   </tr>

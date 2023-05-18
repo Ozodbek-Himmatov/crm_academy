@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <nav class="flex justify-between h-[50px] mt-5">
+    <nav class="flex justify-between h-[50px] my-5">
       <form class="flex items-center">
         <div class="relative w-[350px]">
           <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">

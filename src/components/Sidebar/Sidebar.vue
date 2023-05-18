@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { navLinks } from '../../constants/navLinks'
+import image from '../../assets/img/logo.png'
 
 const navlink = ref(navLinks)
 </script>
@@ -13,7 +14,7 @@ const navlink = ref(navLinks)
       aria-label="Sidebar"
     >
       <div class="flex justify-center items-center gap-3 py-4">
-        <img src="../../assets/img/logo.png" alt="" />
+        <img :src="image" alt="" />
         <div class="font-bold font-['Poppins'] text-white text-center my-3 text-[30px]">
           Academy
         </div>

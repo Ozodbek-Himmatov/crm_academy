@@ -1,0 +1,75 @@
+export const teachers = [
+  {
+    id: 1,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 2,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 3,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 4,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 5,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 6,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 7,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 8,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 9,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 10,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 11,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },{
+    id: 12,
+    img: 'https://e1.pxfuel.com/desktop-wallpaper/444/576/desktop-wallpaper-muslim-man-thumbnail.jpg',
+    name: 'Dimitres',
+    surname : 'Viga',
+    science: 'Mathematics',
+  },
+]
