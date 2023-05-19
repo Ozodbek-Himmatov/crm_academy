@@ -19,16 +19,16 @@ import bellDot from '../../assets/img/dot.png'
               class="absolute h-[6px] w-[6px] rounded-full bg-[#4D44B5] top-10 right-[240px]"
               alt="bell notification"
             />
-            <img :src="bell" class="bg-white p-[10px] w-[50px] h-[50px] rounded-full" alt="Bell" />
+            <img :src="bell" class="bg-white hover:scale-110 p-[10px] w-[50px] h-[50px] rounded-full" alt="Bell" />
           </div>
-          <img :src="gear" class="bg-white p-[10px] w-[50px] h-[50px] rounded-full" alt="Gear" />
+          <img :src="gear" class="bg-white hover:scale-110 p-[10px] w-[50px] h-[50px] rounded-full" alt="Gear" />
         </div>
         <div class="flex gap-2">
           <div class="flex flex-col items-center">
             <span class="text-[#303972]"> Azimov A. </span>
             <span class="text-[#A098AE]"> Admin </span>
           </div>
-          <img :src="image" class="w-[45px] h-[45px] rounded-full bg-gray-600" alt="" />
+          <img :src="image" class="w-[45px] h-[45px] object-cover  rounded-full bg-gray-600" alt="" />
         </div>
       </div>
       <div class="my-5 text-2xl w-[263px] text-main-color flex justify-between items-center">

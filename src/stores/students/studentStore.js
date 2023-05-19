@@ -6,12 +6,12 @@ export const useStudentStore = defineStore('student', () => {
   const state = reactive({
     user: [...students],
     currentPage: 1,
-    itemsPerPage: 5
+    itemsPerPage: 4
   })
 
   const SET_USER = (data) => {
     state.user = data
-  } 
+  }
 
   const ADD_USER = (data) => {
     state.user.push(data)
@@ -45,5 +45,16 @@ export const useStudentStore = defineStore('student', () => {
 
   const GET_USERS = computed(() => state.user)
 
-  return { state, EDIT_USER, SET_USER, GET_USERS, ADD_USER, GENERATE_ID, DELETE_USER, GET_USER }
+  return {
+    currentPage: state.currentPage,
+    itemsPerPage: state.itemsPerPage,
+    user: state.user,
+    EDIT_USER,
+    SET_USER,
+    GET_USERS,
+    ADD_USER,
+    GENERATE_ID,
+    DELETE_USER,
+    GET_USER
+  }
 })

@@ -1,8 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router'
-
 import Home from './Home/Home.vue'
-
 
 
 const router = useRouter()
@@ -16,7 +14,7 @@ const router = useRouter()
         <div class="px-8">
           <router-view></router-view>
           <Rightbar v-show="router.currentRoute.value.name === 'dashboard'" />
-          <Home />
+          <Home v-show="router.currentRoute.value.name === 'dashboard'"/>
         </div>
       </div>
     </section>

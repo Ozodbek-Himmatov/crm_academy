@@ -82,7 +82,7 @@ export const students = [
     surname: 'Abdulloh',
     email: 'example@gmail.com',
     img: '../../src/assets/img/muslim_prof.jpg',
-    group_number: '25',
+    group_number: '225',
     grade: 'Freelance',
     createdAt: '2005.01.27',
     id_number: '1234'
@@ -103,7 +103,7 @@ export const students = [
     name: 'Muhammad',
     surname: 'Abdulloh',
     email: 'example@gmail.com',
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: '../../src/assets/img/admin-profile.png',
     group_number: '25',
     grade: 'Freelance',
     createdAt: '2005.01.27',

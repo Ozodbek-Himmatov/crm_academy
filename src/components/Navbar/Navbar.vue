@@ -1,3 +1,4 @@
+<script setup></script>
 <template>
   <div>
     <nav class="flex justify-between h-[50px] mb-5">
@@ -27,11 +28,12 @@
           />
         </div>
       </form>
-      <button class="bg-[#4D44B5] text-white w-[180px] h-[50px] rounded-full">
+      <button
+        class="bg-[#4D44B5] text-white w-[180px] h-[50px] rounded-full"
+      >
         <i class="bx bx-plus-medical"></i>
       </button>
     </nav>
   </div>
 </template>
-<script setup></script>
 <style scoped></style>
