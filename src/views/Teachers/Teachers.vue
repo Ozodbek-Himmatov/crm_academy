@@ -16,7 +16,6 @@ const editUser = ref(0)
 
 const toggleModal = () => {
   for (let i in teachersInfo) teachersInfo[i] = ''
-  headStore.CHANGE_TITLE(modalTogg.value ? 'Teachers' : "Yangi o'quvchi qo'shish")
   modalTogg.value = !modalTogg.value
 }
 const toggleDelete = () => (deleteModalTogg.value = !deleteModalTogg.value)
