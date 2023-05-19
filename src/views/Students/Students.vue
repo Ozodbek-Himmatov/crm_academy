@@ -1,7 +1,6 @@
 <script setup>
 import moment from 'moment'
 import { students } from '../../constants/students.js'
-
 </script>
 <template>
   <div>
@@ -135,7 +134,7 @@ import { students } from '../../constants/students.js'
     </div>
 
     <!-- TABLE SECTION START -->
-    <div class="max-w-full mt-10 font-['Abhaya'] font-bold">
+    <div class="max-w-full mt-10 font-['Abhaya'] text-[#8A92A6]">
       <div class="flex flex-col">
         <div class="overflow-x-auto shadow-md sm:rounded-lg">
           <div class="inline-block min-w-full align-middle">
@@ -148,31 +147,16 @@ import { students } from '../../constants/students.js'
                         <input
                           id="checkbox-all"
                           type="checkbox"
-                          class="w-4 h-4 text-purple-600 bg-gray-100 rounded border-gray-300 focus:ring-purple-500 dark:focus:ring-purple-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                          class="w-4 h-4 text-[#000AFF] bg-[#F5F7FF] rounded border-[#D0D5DD] focus:ring-0 dark:focus:ring-blue-700 dark:bg-gray-500 dark:border-[#D0D5DD]"
                         />
                         <label for="checkbox-all" class="sr-only">checkbox</label>
                       </div>
                     </th>
                     <th
                       scope="col"
-                      class="py-3 px-6 text-xs font-medium tracking-wider text-left text-[#8A92A6] uppercase dark:text-gray-400 flex items-center gap-5 mt-2"
+                      class="py-3 px-6 text-xs font-medium tracking-wider text-left uppercase dark:text-gray-400"
                     >
-                      <span>I.O.F</span>
-                      <svg
-                        width="11"
-                        height="12"
-                        viewBox="0 0 11 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M5.66667 1.33334V10.6667M5.66667 10.6667L10.3333 6M5.66667 10.6667L1 6"
-                          stroke="#667085"
-                          stroke-width="1.33333"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
+                      I.O.F
                     </th>
                     <th
                       scope="col"
@@ -210,33 +194,36 @@ import { students } from '../../constants/students.js'
                         <input
                           id="checkbox-table-1"
                           type="checkbox"
-                          class="w-4 h-4 text-purple-600 bg-gray-100 rounded border-gray-300 focus:ring-purple-500 dark:focus:ring-purple-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                          class="w-4 h-4 text-[#000AFF] bg-[#F5F7FF] rounded border-[#D0D5DD] focus:ring-0 dark:focus:ring-blue-700 dark:bg-gray-500 dark:border-[#D0D5DD]"
                         />
                         <label for="checkbox-table-1" class="sr-only">checkbox</label>
                       </div>
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-gray-900 flex items-center gap-3">
+                    <td class="py-4 px-6 text-sm font-semibold text-[#232D42] flex items-center gap-3">
                       <img :src="student.img" alt="avatar" class="rounded-full h-[50px]" />
-                      {{ student.name }} {{ student.surname }}
+                      <div class="flex flex-col">
+                        <strong>{{ student.name }} {{ student.surname }}</strong>
+                        <span class="text-[#667085]">{{ student.email }}</span>
+                      </div>
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-gray-500">
+                    <td class="py-4 px-6 text-sm font-semibold text-[#232D42]">
                       {{ student.group_number }}
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-gray-900">
+                    <td class="py-4 px-6 text-sm font-semibold text-[#232D42]">
                       {{ student.grade }}
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-gray-900">
+                    <td class="py-4 px-6 text-sm font-semibold text-[#232D42]">
                       {{ moment(student.createdAt).format('MMM Do YY') }}
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-gray-900">
+                    <td class="py-4 px-6 text-sm font-semibold text-[#232D42]">
                       {{ student.id_number }}
                     </td>
-                    <td class="py-4 px-6 text-sm font-medium text-center">
+                    <td class="py-4 px-6 text-sm font-semibold text-center">
                       <i
                         class="bx bx-trash text-2xl cursor-pointer hover:scale-110 hover:text-red-600 hover:shadow-inner rounded-full px-1 hover:shadow-red-500 duration-200 mr-5"
                       ></i>
                       <i
-                        class="bx bx-pencil text-2xl cursor-pointer hover:scale-110 rounded-md  hover:text-blue-600 hover:shadow-inner hover:shadow-blue-500 duration-200"
+                        class="bx bx-pencil text-2xl cursor-pointer hover:scale-110 rounded-md hover:text-blue-600 hover:shadow-inner hover:shadow-blue-500 duration-200"
                       ></i>
                     </td>
                   </tr>

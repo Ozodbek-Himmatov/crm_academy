@@ -1,12 +1,22 @@
-<script setup></script>
+<script setup>
+import { useRouter } from 'vue-router'
+
+import Home from './Home/Home.vue'
+
+
+
+const router = useRouter()
+</script>
 <template>
+  <Header />
+  <Sidebar />
   <main>
     <section class="w-full">
-      <Sidebar />
-      <div class="p-4 sm:ml-72 bg-[#F3F4FF] h-[100vh]">
+      <div class="p-4 sm:ml-72 bg-[#F3F4FF]">
         <div class="px-8">
-          <Header />
           <router-view></router-view>
+          <Rightbar v-show="router.currentRoute.value.name === 'dashboard'" />
+          <Home />
         </div>
       </div>
     </section>
