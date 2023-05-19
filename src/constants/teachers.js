@@ -1,7 +1,7 @@
 export const teachers = [
   {
     id: 1,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -10,7 +10,7 @@ export const teachers = [
   },
   {
     id: 2,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -19,7 +19,7 @@ export const teachers = [
   },
   {
     id: 3,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -28,7 +28,7 @@ export const teachers = [
   },
   {
     id: 4,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -37,7 +37,7 @@ export const teachers = [
   },
   {
     id: 5,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -46,7 +46,7 @@ export const teachers = [
   },
   {
     id: 6,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -55,7 +55,7 @@ export const teachers = [
   },
   {
     id: 7,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -64,7 +64,7 @@ export const teachers = [
   },
   {
     id: 8,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -73,7 +73,7 @@ export const teachers = [
   },
   {
     id: 9,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -82,7 +82,7 @@ export const teachers = [
   },
   {
     id: 10,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -91,7 +91,7 @@ export const teachers = [
   },
   {
     id: 11,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -100,7 +100,7 @@ export const teachers = [
   },
   {
     id: 12,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -109,7 +109,7 @@ export const teachers = [
   },
   {
     id: 13,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -118,7 +118,7 @@ export const teachers = [
   },
   {
     id: 14,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -127,7 +127,7 @@ export const teachers = [
   },
   {
     id: 15,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -136,7 +136,7 @@ export const teachers = [
   },
   {
     id: 16,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -145,7 +145,7 @@ export const teachers = [
   },
   {
     id: 17,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',
@@ -154,7 +154,7 @@ export const teachers = [
   },
   {
     id: 18,
-    img: '../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     name: 'Dimitres',
     surname: 'Viga',
     className: 'VII A',

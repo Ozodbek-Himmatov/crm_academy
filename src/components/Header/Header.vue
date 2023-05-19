@@ -1,9 +1,4 @@
 <script setup>
-import image from '../../assets/img/admin-profile.png'
-import bell from '../../assets/img/bell.png'
-import gear from '../../assets/img/gear.png'
-import bellDot from '../../assets/img/dot.png'
-
 import { useRouter } from 'vue-router'
 const router = useRouter()
 </script>
@@ -47,20 +42,32 @@ const router = useRouter()
         <div class="flex gap-3">
           <div>
             <img
-              :src="bellDot"
+              src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png"
               class="absolute h-[6px] w-[6px] rounded-full bg-[#4D44B5] top-8 right-[259px]"
               alt="bell notification"
             />
-            <img :src="bell" class="bg-white p-[10px] w-[50px] h-[50px] rounded-full" alt="Bell" />
+            <img
+              src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png"
+              class="bg-white p-[10px] w-[50px] h-[50px] rounded-full"
+              alt="Bell"
+            />
           </div>
-          <img :src="gear" class="bg-white p-[10px] w-[50px] h-[50px] rounded-full" alt="Gear" />
+          <img
+            src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png"
+            class="bg-white p-[10px] w-[50px] h-[50px] rounded-full"
+            alt="Gear"
+          />
         </div>
         <div class="flex gap-2">
           <div class="flex flex-col items-center">
             <span class="text-[#303972]"> Azimov A. </span>
             <span class="text-[#A098AE]"> Admin </span>
           </div>
-          <img :src="image" class="w-[45px] h-[45px] rounded-full bg-gray-600" alt="" />
+          <img
+            src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png"
+            class="w-[45px] h-[45px] rounded-full bg-gray-600"
+            alt=""
+          />
         </div>
       </div>
     </header>
