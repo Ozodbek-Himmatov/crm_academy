@@ -558,10 +558,10 @@ const editStudent = () => {
         </span>
         <div class="flex mt-9 space-x-3">
           <button class="bg-[#4D44B5] px-3 w-[40px] h-[40px] py-3 rounded-full relative">
-            <img src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png" />
+            <img :src="call" />
           </button>
           <button class="bg-[#4D44B5] px-3 w-[40px] h-[40px] py-3 rounded-full relative">
-            <img src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png" />
+            <img :src="env" />
           </button>
         </div>
       </div>
