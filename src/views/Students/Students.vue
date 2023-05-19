@@ -50,7 +50,7 @@ const addStudent = () => {
     id: Date.now(),
     name: studentInfo.name,
     surname: studentInfo.surname,
-    img: '../../../src/assets/img/muslim_prof.jpg',
+    img: 'https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Clipart.png',
     group_number: studentInfo.group_number,
     grade: 'Freelance',
     birthday: studentInfo.birthday,
